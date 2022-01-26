@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background: url(bg.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    color: white;
+
+}
+
+header{
+    display: flex;
+    background-color: #003843;
+    color: whitesmoke;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+#main-container{
+    background-color:#243dca ;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+#main-container h2{
+    font-size: 2rem;
+}
+
+#random-word{
+    font-size: 7rem;
+}
+
+#typed{
+    width: 70%;
+    height: 10%;
+    font-size: 2em;
+    border-radius: 25px;
+    border-color: black;
+    text-align: center;
+}
+
+#msg{
+    font-size: 3em;
+    font-weight: 900;
+}
+
+#timer{
+    margin-right: 15%;
+}
+
+
+
+#info{
+    font-size: 3rem;
+}
+
+footer{
+    background-color: #003843;
+    color: whitesmoke;
+    height: 10vh;
+    text-align: center;
+    font-size: 1.1rem;
+}

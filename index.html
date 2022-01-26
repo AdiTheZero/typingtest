@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <title>Typing Test</title>
+</head>
+<body>
+    <header>
+       <h1> Word Beater </h1>
+    </header>
+    <div id="main-container">
+        <h2>
+            Type The Given Word Within <span>10</span> Seconds:
+        </h2>
+        <div id="random-word">
+            Hello
+        </div>
+        <input type="text" id="typed" placeholder="Start Typing...">
+        <div id="info">
+            Time Left : <span id="timer">0</span>
+            Score: <span id="score">0</span>
+        </div>
+        <div id="msg">
+            Incorrect!!!
+        </div>
+    </div>
+    <footer>
+        <h3>Instructions</h3>
+        Type each word in the given amount of Seconds to Score. To Play Again, just type the current word. Your score will reset.
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
